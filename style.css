@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+body {
+  background-color: #192e3f;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.pai {
+  border: 1px solid #2f5675;
+  height: 430px;
+  width: 306px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+  margin: auto;
+}
+
+.imgbackground {
+  width: 306px;
+  height: 130px;
+  margin-top: 300px;
+  position: absolute;
+  background: url("https://store.cloudflare.steamstatic.com/public/images/v6/home/background_spotlight.jpg");
+  filter: brightness(150%);
+}
+.text {
+  margin-top: 290px;
+  position: absolute;
+  color: #fff;
+  width: 305px;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+
+  color: white;
+}
+
+.desconto {
+  width: 80px;
+  height: 42.5px;
+  background-color: #4c6b22;
+  margin-left: 20px;
+  position: fixed;
+}
+
+.h2 {
+  margin-top: 5px;
+  color: #a4cb18;
+}
+
+.valor {
+  width: 80px;
+  background-color: #0d303f;
+  margin-left: 100px;
+  position: fixed;
+  padding: 5px;
+}
+
+.valor1 {
+  color: #7193a6;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.valor2 {
+  color: #89dbf5;
+  font-size: 15px;
+}
+.fontpromocao {
+  text-align: center;
+  font-size: 22px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="icon" type="image/png" href="/imagem/favicon.png" />
+  </head>
+  <body onload="randomGame()">
+    <div
+      class="pai animate__animated animate__pulse animate__infinite infinite"
+    >
+      <div class="container">
+        <div>
+          <div class="imgbackground"></div>
+          <div class="text">
+            <p class="fontpromocao">Promoção de final de semana</p>
+
+            <div class="desconto">
+              <h2 id="desconto" class="h2"></h2>
+            </div>
+            <div class="valor">
+              <div id="valor1" class="valor1"></div>
+              <div id="valor2" class="valor2"></div>
+            </div>
+          </div>
+        </div>
+        <img id="img" src="imagem/imagem0.jpg" alt="" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
